@@ -21,7 +21,7 @@ const Main=()=>{
         setAnteriorUrl(res.data.previous);
         getPokemon(res.data.results)
         setLoading(false)
-        //console.log(res.data.results)  
+        //console.log(res.data.results)    
     }
     const getPokemon=async(res)=>{
         res.map(async(item)=>{
