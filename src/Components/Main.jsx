@@ -32,7 +32,7 @@ const Main=()=>{
                return state;
            })
         })   
-     }dddd
+     }
      useEffect(()=>{
         pokeFun();
     },[url])

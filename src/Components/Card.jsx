@@ -15,7 +15,7 @@ const Card = ({ pokemon, loading,infoPokemon}) => {
                             </div>
                         </>
                     )
-                })
+                })ddddd
         }
 
         </>
